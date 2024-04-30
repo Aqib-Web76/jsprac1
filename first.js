@@ -44,4 +44,41 @@ let t = 3;
 console.log(!(a < b)); //if a is less then 4 then the condition is false but due to the ! it will give you tue ans
 
 
+// for finding num is odd or even
+let m = 45;
+if(m%2 ==0){
+    console.log(m, "is even");
+} else {
+    console.log("number is Odd")
+}
+// else if
+let mode= "blue";
+let color;
+if (mode==="dark") {
+    console.log(color = "black");
+} else if (mode==="blue") {
+    console.log(color = "blue");
+}
+ else if (mode==="pink") {
+    console.log(color = "pink");
+}
+else {
+    console.log(color = "white");
+}
+// Ternary Operator
+let age = 45;
+let h = age < 18 ? "adult" : "not adult";
+console.log(h);
+
+// alert and prompt
+alert("go to prompt");
+
+let num = prompt("enter value");
+if (num % 2 === 0) {
+    console.log("number is even")
+
+} else {
+    console.log("number is odd")
+
+}
 
