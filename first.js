@@ -1,15 +1,14 @@
-/*sole.log("operators");
-let a = 5;
-let b = 2;
-console.log("the result of a + b = ", a ** b);
-console.log("Uneray operators");*/
-//  this operators need only one operand
- let a = 5;
- let b = 2;
-console.log(--a);
-console.log(++a);
-console.log(b--);
-console.log(--b);
-// assignment operator
+// Assignment operators
+let a = 4;
+a **= 7;
+let b = 5;
+b %= 2;//b=b %2
 
+
+console.log("the new value will be:", a);
+console.log("the new value will be:", b);
+let c = 6;
+c = c + 5;
+
+console.log(c);
 
