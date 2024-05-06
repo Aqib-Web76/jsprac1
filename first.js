@@ -140,3 +140,37 @@ for (let i in student) {
     console.log(i,student[i]);
 }
 
+*/
+/*print all even number using loop from 0 to 100
+for (let i = 0; i <= 100; i++){
+    if (i % 2 !==0) {
+        console.log(i)
+    }
+}*/
+/*print the number which match with the prompt value other wise diplay that you enter wrong value
+// let  userName = prompt("Enter your Number");
+// let gameNum=25;
+// while (userName != gameNum){
+//    userName= prompt("you guess the wrong number, enter number agian")
+// }
+console.log("Congratulation you guess the number");*/
+// Strings
+// let str = "Awais qarrni";
+// console.log(str.length);
+// template literals
+// let obj = {
+//     cost: 90,
+//     item,
+// };
+// console.log("the cost of item is :", item.cost, "and the quality of item ", item.quality);
+/*String Methods
+let str1= "Aqib";
+
+
+console.log(str1.replace("a", "s"));*/
+
+// let marks = [65, 75, 45, 75, 34, 75,];
+// for (let i = 0; i < marks.length; i++){
+//     console.log(i);
+// }
+ 
