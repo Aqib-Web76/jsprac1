@@ -173,4 +173,35 @@ console.log(str1.replace("a", "s"));*/
 // for (let i = 0; i < marks.length; i++){
 //     console.log(i);
 // }
- 
+//  Array
+// let studentClass = ["ist", "2nd", "3rd","4th","5th","6th"];
+// for (let i = 0; i < 5; i++){
+//     console.log(studentClass);
+// }
+
+
+
+
+/*
+let i = 0;
+for (let val of num) {
+    
+    console.log("the value of index ", i, val);
+    i++;
+}
+
+for (let i = 0; i < num.length; i++){
+    console.log(num.length);
+}*/
+let num = [250, 645, 300, 900, 50];
+let i = 0;
+
+for (let val of num) {
+    console.log("the value of item at index",i,"=",val)
+    let offer = num[i]/ 10;
+    num[i] = num[i] - offer;
+    console.log("the value after offer ",num[i]);
+    
+}
+
+
