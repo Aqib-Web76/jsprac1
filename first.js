@@ -192,16 +192,49 @@ for (let val of num) {
 
 for (let i = 0; i < num.length; i++){
     console.log(num.length);
-}*/
-let num = [250, 645, 300, 900, 50];
-let i = 0;
-
-for (let val of num) {
-    console.log("the value of item at index",i,"=",val)
-    let offer = num[i]/ 10;
-    num[i] = num[i] - offer;
-    console.log("the value after offer ",num[i]);
-    
 }
+let items= [250, 645, 300, 900, 50];
+// for (let val of num) {
+//     console.log("the value of item at index",i,"=",val)
+//     let offer = num[i]/ 10;
+//     num[i] = num[i] - offer;
+//     console.log("the value after offer ",num[i]);
+// }
+for (let i = 0; i < items.length; i++){
+     console.log("the value of item at index",i,"=",items[i])
+    let offer = items[i] / 10;
+    items[i] = items[i] - offer;
+    console.log("the value after offer is", items[i]);
+}
+    console.log(items);*/
+
+//     let arry = ["Aqib", "Khan", "Shinwari"];
+//     let arry2 = ["Sano", "Khan", "Shinwari"];
+    
+// let value = arry.unshift("Aqib");
+// console.log(arry);
+// let val = arry2.shift("Sano");
+// console.log(arry2);
+
+// const students= ["aqib","hasham","roman","asim jan"];
+// const a= students.slice(1,2);
+// console.log(students);
+
+// const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+// console.log(fruits);
+
+// console.log(fruits.slice(1, 2));
+// let arra3 = [1, 2, 3, 4, 5, 6, 7];
+// console.log(arra3.splice(2, 0, 101));
 
 
+// Create an Array
+ const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+ // At position 2, add "Lemon" and "Kiwi":
+fruits.splice(2, 0, "Lemon", "Kiwi");
+console.log(fruits);
+
+// let fruits = ['apple', 'banana', 'cherry'];
+// fruits.splice(1, 0, 'blueberry', 'kiwi'); // Adds 'blueberry' and 'kiwi' at index 1
+// console.log(fruits); // Output: ['apple', 'blueberry', 'kiwi', 'banana', 'cherry']
